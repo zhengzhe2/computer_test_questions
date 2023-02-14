@@ -2,7 +2,7 @@
 #define TEST_CASE_OK1_H
 
 
-void solution();
+void solution_1();
 
 
 #endif

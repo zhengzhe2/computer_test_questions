@@ -52,7 +52,7 @@ void sort(df_h_type* df_h_array)
     }
 }
 
-void solution()
+void solution_1()
 {
     char out_buffer[1024];
     char* cmd = "df -h";
