@@ -7,9 +7,10 @@ project(${PRIVATE_MODULE_NAME})
 add_definitions(-D LINUX_OS)
 
 SET(SRC_FILES
-        "test_case_HJ1.c"
         "test_case_OK1.c"
-        "test_case_OK2.c")
+        "test_case_OK2.c"
+        "test_case_HJ1.c"
+        "test_case_HJ2.c")
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
