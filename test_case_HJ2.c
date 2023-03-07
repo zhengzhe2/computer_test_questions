@@ -1,4 +1,4 @@
-#include "test_case_HJ1.h"
+#include "test_case_HJ2.h"
 #include <string.h>
 #include <stdio.h>
 

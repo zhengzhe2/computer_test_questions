@@ -10,7 +10,8 @@ SET(SRC_FILES
         "test_case_OK1.c"
         "test_case_OK2.c"
         "test_case_HJ1.c"
-        "test_case_HJ2.c")
+        "test_case_HJ2.c"
+        "test_case_HJ5.c")
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
@@ -19,4 +20,4 @@ include_directories(
 
 add_executable(${PRIVATE_MODULE_NAME} main.c ${SRC_FILES})
 
-target_link_libraries(${PRIVATE_MODULE_NAME} pthread)
+target_link_libraries(${PRIVATE_MODULE_NAME} -lpthread -lm)
