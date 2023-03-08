@@ -13,7 +13,8 @@ SET(SRC_FILES
         "test_case_HJ2.c"
         "test_case_HJ3.c"
         "test_case_HJ4.c"
-        "test_case_HJ5.c")
+        "test_case_HJ5.c"
+        "test_case_HJ6.c")
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
